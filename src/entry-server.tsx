@@ -1,5 +1,9 @@
 // @refresh reload
+import { migrate } from 'drizzle-orm/better-sqlite3/migrator';
 import { StartServer, createHandler } from "@solidjs/start/server";
+import { db } from './api/db';
+
+migrate(db, { migrationsFolder: "./drizzle/migrations" });
 
 export default createHandler(() => (
   <StartServer
