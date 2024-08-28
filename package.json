@@ -1,0 +1,27 @@
+{
+  "name": "example-with-drizzle",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.8",
+    "@types/better-sqlite3": "^7.6.10",
+    "@types/node": "^20.14.8",
+    "drizzle-kit": "^0.22.7"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.14.1",
+    "@solidjs/start": "^1.0.2",
+    "better-sqlite3": "^11.0.0",
+    "drizzle-orm": "^0.31.2",
+    "solid-js": "^1.8.18",
+    "vinxi": "^0.4.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
+}
